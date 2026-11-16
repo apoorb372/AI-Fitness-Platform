@@ -1,0 +1,39 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Java / Spring Boot build output
+**/target/
+**/build/
+
+# Node.js
+**/node_modules/
+**/dist/
+
+# IDE files
+.idea/
+**/.idea/
+*.iml
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local editor settings
+.vscode/
